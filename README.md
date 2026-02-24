@@ -42,9 +42,34 @@ console.log("Hello, world!");
 2 + 3;
                                                                           Создание HTML-страницы
 Был создан файл index.html
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Привет,мир!</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <script>
+            alert("Привет,мир!");
+            console.log("Hello,console!");
+        </script>
+    </body>
+</html>
+HTML-файл с встроенным JavaScript 
+Сообщение в консоли
+script.js:6 Имя: Ion
+script.js:7 Год рождения: 2006
+script.js:8 Студент: true
+script.js:15 Можно лучше!
+script.js:18 Итерация: 1
+script.js:18 Итерация: 2
+script.js:18 Итерация: 3
+script.js:18 Итерация: 4
+script.js:18 Итерация: 5
+index.html:10 Hello,console
+Выполнение кода в браузере
+Подключение внешнего файла:
+Создан файл script.js
 
 											
 
